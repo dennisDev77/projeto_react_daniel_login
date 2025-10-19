@@ -1,7 +1,5 @@
 import './styles.css';
 
-
-
 export default function Cadastro() {
   return (
     <div className='container'>
