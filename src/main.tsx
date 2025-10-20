@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import Login from './Login';
-import Cadastro from './Cadastro';
+import Login from './pages/Login';
+import Cadastro from './pages/Cadastro';
 import "./global.css";
 
 createRoot(document.getElementById('root')!).render(
