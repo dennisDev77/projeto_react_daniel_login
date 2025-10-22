@@ -3,10 +3,10 @@ import "./styles.css";
 
 interface IProps {
   label: string;
-  type: "text" | "number" | "email" | "password";
+  type?: "text" | "number" | "email" | "password";
   name: string;
-  value: string | number;
-  onChange: ChangeEventHandler<HTMLInputElement>;
+  value?: string | number;
+  onChange?: ChangeEventHandler<HTMLInputElement>;
   placeholder?: string;
 }
 
